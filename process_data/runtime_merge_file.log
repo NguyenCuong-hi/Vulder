@@ -1,0 +1,72 @@
+DEBUG:	procces_code.py:35	   0   1              2
+0  3   4            AST
+1  4   5            AST
+2  5   6            AST
+3  5   8            AST
+4  6   7            AST
+0  7   8            CFG
+0  5   6       CONTAINS
+1  5   7       CONTAINS
+0  7   8       DOMINATE
+0  8   9      EVAL_TYPE
+0  8   7  POST_DOMINATE
+0  3  13            REF
+1  9  14            REF
+0  3  12    SOURCE_FILE
+1  4  12    SOURCE_FILE
+2  5  12    SOURCE_FILE:		
+DEBUG:	procces_code.py:75	                                                  :ID  ...                              TYPE_FULL_NAME:string
+0                                                   6  ...                                                  6
+1                                               BLOCK  ...                                              BLOCK
+2                                                  -1  ...                                                 -1
+3                                          Unnamed: 3  ...                                         Unnamed: 3
+4                                             <empty>  ...                                            <empty>
+5                                                   1  ...                                                  1
+6                                          Unnamed: 6  ...                                         Unnamed: 6
+7                                                 1.1  ...                                                1.1
+8                                                 1.2  ...                                                1.2
+9                                                 ANY  ...                                                ANY
+10                                                 11  ...                                                 11
+11                                               FILE  ...                                               FILE
+12                                         Unnamed: 4  ...                                         Unnamed: 4
+13                                         Unnamed: 5  ...                                         Unnamed: 5
+14                                          <unknown>  ...                                          <unknown>
+15                                                  0  ...                                                  0
+16                                          META_DATA  ...                                          META_DATA
+17                                         Unnamed: 2  ...                                         Unnamed: 2
+18                                               NEWC  ...                                               NEWC
+19     base;controlflow;typerel;callgraph;dataflowOss  ...     base;controlflow;typerel;callgraph;dataflowOss
+20                            D:\datasets\data\10_0.c  ...                            D:\datasets\data\10_0.c
+21                                                0.1  ...                                                0.1
+22                                                  5  ...                                                  5
+23                                             METHOD  ...                                             METHOD
+24                   D:\datasets\data\10_0.c:<global>  ...                   D:\datasets\data\10_0.c:<global>
+25                                          TYPE_DECL  ...                                          TYPE_DECL
+26                                           <global>  ...                                           <global>
+27                                                266  ...                                                266
+28                 D:\datasets\data\10_0.c:<global>.1  ...                 D:\datasets\data\10_0.c:<global>.1
+29                                         Unnamed: 9  ...                                         Unnamed: 9
+30                                              false  ...                                              false
+31                                                  2  ...                                                  2
+32                                         <global>.1  ...                                         <global>.1
+33                                        Unnamed: 15  ...                                        Unnamed: 15
+34                                                  8  ...                                                  8
+35                                      METHOD_RETURN  ...                                      METHOD_RETURN
+36                                                RET  ...                                                RET
+37                                           BY_VALUE  ...                                           BY_VALUE
+38                                    NAMESPACE_BLOCK  ...                                    NAMESPACE_BLOCK
+39                                                 13  ...                                                 13
+40                                          NAMESPACE  ...                                          NAMESPACE
+41                                                  9  ...                                                  9
+42                                               TYPE  ...                                               TYPE
+43                                              ANY.1  ...                                              ANY.1
+44                                              ANY.2  ...                                              ANY.2
+45                                                  4  ...                                                  4
+46                                                  7  ...                                                  7
+47                                            UNKNOWN  ...                                            UNKNOWN
+48  extern rtype gnu_dev_ ## name proto __THROW __...  ...  extern rtype gnu_dev_ ## name proto __THROW __...
+49                                         Unnamed: 7  ...                                         Unnamed: 7
+50                             CASTProblemDeclaration  ...                             CASTProblemDeclaration
+51                                          <empty>.1  ...                                          <empty>.1
+
+[52 rows x 12 columns]:		
