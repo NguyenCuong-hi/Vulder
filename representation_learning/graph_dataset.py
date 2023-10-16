@@ -26,7 +26,6 @@ class DataEntry:
     def is_positive(self):
         return self.label == 1
 
-
 class DataSet:
     def __init__(self, batch_size, hdim):
         self.train_entries = []
